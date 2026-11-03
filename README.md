@@ -2,7 +2,7 @@
 
 # Balasingam Kowarththanan
 
-**Full-Stack Engineer & Technical Lead · .NET · Angular · Flutter**
+**Full-Stack Engineer & Associate Software Developer · .NET · Angular · Flutter**
 
 I design and ship end-to-end products — from domain model and API to web, admin and mobile clients —
 and I own them in production.
