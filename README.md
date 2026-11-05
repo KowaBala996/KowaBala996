@@ -194,6 +194,40 @@ and I own them in production.
 
 ---
 
+## 🧮 Dev Breakdown
+
+_Measured across my 37 repositories (public and private) — Nov 2026. Languages by share of code (generated Flutter platform code excluded); everything else by number of repos that use it._
+
+```text
+💻 Languages:
+C#             █████████████████████████   25.1%
+HTML           ███████████████████████░░   23.1%
+TypeScript     ██████████████████████░░░   22.4%
+Python         ████████░░░░░░░░░░░░░░░░░   8.5%
+JavaScript     ███████░░░░░░░░░░░░░░░░░░   7.4%
+Dart           ███████░░░░░░░░░░░░░░░░░░   7.3%
+CSS            █████░░░░░░░░░░░░░░░░░░░░   5.2%
+
+🧰 Frameworks:
+.NET           █████████████████████████   12 repos
+Angular        ████████░░░░░░░░░░░░░░░░░   4 repos
+React          ████████░░░░░░░░░░░░░░░░░   4 repos
+Flutter        ██████░░░░░░░░░░░░░░░░░░░   3 repos
+Streamlit      ██████░░░░░░░░░░░░░░░░░░░   3 repos
+
+🗄️ Databases:
+SQL Server     ██████░░░░░░░░░░░░░░░░░░░   3 repos
+SQLite         ██████░░░░░░░░░░░░░░░░░░░   3 repos
+PostgreSQL     ██░░░░░░░░░░░░░░░░░░░░░░░   1 repo
+
+☁️ DevOps & Hosting:
+Vercel         ██████████░░░░░░░░░░░░░░░   5 repos
+Docker         ██████░░░░░░░░░░░░░░░░░░░   3 repos
+GitHub Actions ██████░░░░░░░░░░░░░░░░░░░   3 repos
+```
+
+---
+
 ## 📝 Development Philosophy
 
 > **"Clean code is not written by following a set of rules. You don't become a software craftsman by learning a list of heuristics. Professionalism and craftsmanship come from values that drive disciplines."** – Robert C. Martin
