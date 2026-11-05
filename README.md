@@ -39,7 +39,7 @@ and I own them in production.
 
 | Product | What it is | Stack |
 |---|---|---|
-| **Luxury gemstone commerce platform** | Customer website, admin console and mobile app selling certified natural Ceylon gemstones | ASP.NET Core API · MVC · Flutter · SQL Server |
+| **Luxury gemstone commerce platform** | Customer website, admin console and mobile app selling certified natural Ceylon gemstones | ASP.NET Core API · Angular (SSR) · MVC · Flutter · SQL Server |
 | **Multi-business booking SaaS** | Booking platform with per-business subscriptions, platform fees and online payments | ASP.NET Core · Clean Architecture · CQRS · EF Core |
 | **EPOS Now integration API** | Service that connects point-of-sale data with external systems | ASP.NET Core · REST · background sync |
 
@@ -47,20 +47,33 @@ and I own them in production.
 
 ## 📂 Selected Open-Source Work
 
-| Repository | Highlights |
-|---|---|
-| [poddle-eposnow-integration-api](https://github.com/KowaBala996/poddle-eposnow-integration-api) | .NET integration service for the EPOS Now point-of-sale platform |
-| [Microservice-Architecture-with-Clean-Code-Architecture-](https://github.com/KowaBala996/Microservice-Architecture-with-Clean-Code-Architecture-) | Reference microservices API in .NET with Clean Architecture layering |
-| [Chatbot_AI](https://github.com/KowaBala996/Chatbot_AI) | AI chatbot — .NET backend with a cross-platform Flutter client, containerised with Docker |
-| [CarRentalManagementSystem_V2](https://github.com/KowaBala996/CarRentalManagementSystem_V2) | Rental management backend in ASP.NET Core |
-| [kowarththanan-portfolio](https://github.com/KowaBala996/kowarththanan-portfolio) | Personal portfolio site |
+| Repository | Highlights | Stack |
+|---|---|---|
+| [Chatbot_AI](https://github.com/KowaBala996/Chatbot_AI) | Private business assistant on a **local LLM** (Mistral via Ollama) — answers questions from internal business data using direct prompt injection or **RAG** (embeddings + vector store); no external cloud APIs | .NET 8 · Flutter · Ollama · Docker |
+| [poddle-eposnow-integration-api](https://github.com/KowaBala996/poddle-eposnow-integration-api) | Web API that integrates with the EPOS Now point-of-sale platform over OAuth 2.0 — controller → service → repository layering | .NET 8 · REST · OAuth 2.0 · Docker |
+| [python-AI](https://github.com/KowaBala996/python-AI) | AI text summarizer with tunable length and sampling | Python · Streamlit · Hugging Face Transformers (BART) |
+| [New-folder--2-](https://github.com/KowaBala996/New-folder--2-) | **GPA Insight** — academic tracker with grade prediction, study-time optimizer and what-if analysis | Python · Streamlit · scikit-learn · Plotly |
+| [Anguler_Visual_studio_MVC-project-using-.Net-Core-8.0](https://github.com/KowaBala996/Anguler_Visual_studio_MVC-project-using-.Net-Core-8.0) | Angular front end alongside an ASP.NET Core MVC app in one solution | Angular · ASP.NET Core 8 · Docker |
+| [my-Gemtone-selling-app](https://github.com/KowaBala996/my-Gemtone-selling-app) | Early front end for a gemstone store | Angular 20 · TypeScript |
+| [Car_rental_Group-3_Back_end](https://github.com/KowaBala996/Car_rental_Group-3_Back_end) · [Front end](https://github.com/KowaBala996/Car_Rental_Management_system_Group-3_Front_end) | Team-built car rental system — customer registration and login, car categories, payments, customer and manager dashboards | ASP.NET Core · SQLite · JavaScript |
+| [kowarththanan-portfolio](https://github.com/KowaBala996/kowarththanan-portfolio) | Personal portfolio — about, experience, education, contact | React · Vite |
+
+---
+
+## 🌐 Live
+
+- **Portfolio** — [my-portofolio-opal-alpha.vercel.app](https://my-portofolio-opal-alpha.vercel.app) ([source](https://github.com/KowaBala996/my-Portofolio))
+- **Portfolio v2** — [portfolio2-murex-psi.vercel.app](https://portfolio2-murex-psi.vercel.app) ([source](https://github.com/KowaBala996/9))
 
 ---
 
 ## 🐍 Contribution Graph
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" alt="snake eating my contributions" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KowaBala996/KowaBala996/output/github-contribution-grid-snake-dark.svg" />
+    <img src="https://raw.githubusercontent.com/KowaBala996/KowaBala996/output/github-contribution-grid-snake.svg" alt="snake eating my contributions" />
+  </picture>
 </div>
 
 ---
@@ -96,11 +109,13 @@ and I own them in production.
 ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![Node.js](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 
 ### 🗃️ Databases
 ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
+![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
 
 ### ☁️ Tools & Platforms
 ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white)
@@ -176,35 +191,6 @@ and I own them in production.
 - 🧠 Innovate through AI and automation while maintaining ethical standards
 - 🏗️ Implement enterprise-grade solutions with scalability and maintainability
 - 📖 Share knowledge through technical blog posts and tutorials
-
----
-
-## 🧮 Weekly Dev Breakdown
-
-```text
-💻 Languages:
-Python       █████████████████████████   45.2%
-JavaScript   ████████████████████░░░░░   38.7%
-TypeScript   █████████░░░░░░░░░░░░░░░░   16.1%
-Dart         ████████░░░░░░░░░░░░░░░░░   12.8%
-Java         ██████░░░░░░░░░░░░░░░░░░░   9.3%
-
-🧰 Tools:
-React        ████████████████████░░░░░   35.6%
-Angular      ███████████████░░░░░░░░░░   28.9%
-VS Code      ████████████████████████░   42.1%
-Docker       ███████████████░░░░░░░░░░   28.3%
-
-🗄️ Databases:
-MongoDB      ████████████████████░░░░░   58.3%
-MySQL        █████████████████░░░░░░░░   41.7%
-
-☁️ DevOps:
-GitHub       ████████████████████████░   48.5%
-Docker       ████████████████████░░░░░   36.8%
-Azure        ██████████████░░░░░░░░░░░   24.7%
-
-```
 
 ---
 
