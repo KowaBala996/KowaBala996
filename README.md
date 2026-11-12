@@ -50,7 +50,6 @@ and I own them in production.
 | Repository | Highlights | Stack |
 |---|---|---|
 | [Chatbot_AI](https://github.com/KowaBala996/Chatbot_AI) | Private business assistant on a **local LLM** (Mistral via Ollama) — answers questions from internal business data using direct prompt injection or **RAG** (embeddings + vector store); no external cloud APIs | .NET 8 · Flutter · Ollama · Docker |
-| [poddle-eposnow-integration-api](https://github.com/KowaBala996/poddle-eposnow-integration-api) | Web API that integrates with the EPOS Now point-of-sale platform over OAuth 2.0 — controller → service → repository layering | .NET 8 · REST · OAuth 2.0 · Docker |
 | [python-AI](https://github.com/KowaBala996/python-AI) | AI text summarizer with tunable length and sampling | Python · Streamlit · Hugging Face Transformers (BART) |
 | [New-folder--2-](https://github.com/KowaBala996/New-folder--2-) | **GPA Insight** — academic tracker with grade prediction, study-time optimizer and what-if analysis | Python · Streamlit · scikit-learn · Plotly |
 | [Anguler_Visual_studio_MVC-project-using-.Net-Core-8.0](https://github.com/KowaBala996/Anguler_Visual_studio_MVC-project-using-.Net-Core-8.0) | Angular front end alongside an ASP.NET Core MVC app in one solution | Angular · ASP.NET Core 8 · Docker |
