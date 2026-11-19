@@ -3,7 +3,7 @@
 # Balasingam Kowarththanan
 
 <a href="https://github.com/KowaBala996">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=7C5CFF&center=true&vCenter=true&width=620&lines=Full-Stack+Engineer+%C2%B7+.NET+%C2%B7+Angular+%C2%B7+Flutter;From+domain+model+to+production;Clean+Architecture+%C2%B7+CQRS+%C2%B7+EF+Core;Payments+%C2%B7+Subscriptions+%C2%B7+EPOS+integrations" alt="Full-Stack Engineer · .NET · Angular · Flutter" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=7C5CFF&center=true&vCenter=true&width=620&lines=Full-Stack+Engineer+%C2%B7+.NET+%C2%B7+Angular+%C2%B7+Flutter;From+domain+model+to+production;Clean+Architecture+%C2%B7+CQRS+%C2%B7+EF+Core;Payments+%C2%B7+Subscriptions+%C2%B7+POS+integrations" alt="Full-Stack Engineer · .NET · Angular · Flutter" />
 </a>
 
 I design and ship end-to-end products — domain model, API, web, admin and mobile — and I own them in production.
@@ -32,8 +32,8 @@ I design and ship end-to-end products — domain model, API, web, admin and mobi
 | Product | What it is | Stack |
 |---|---|---|
 | 💎 **Luxury gemstone commerce platform** | Customer website, admin console and mobile app for certified natural Ceylon gemstones | ASP.NET Core · Angular SSR · MVC · Flutter · SQL Server |
-| 📅 **Multi-business booking SaaS** | Per-business subscriptions, platform fees and online payments | ASP.NET Core · Clean Architecture · CQRS · EF Core |
-| 🧾 **EPOS Now integration API** | Connects point-of-sale data with external systems | ASP.NET Core · REST · background sync |
+| 📅 **Multi-tenant booking platform** | Subscriptions, fees and online payments for many businesses on one system | ASP.NET Core · Clean Architecture · CQRS · EF Core |
+| 🧾 **Point-of-sale integration service** | Keeps point-of-sale data in sync with other business systems | ASP.NET Core · REST · background sync |
 
 ### 🏗️ How the gemstone platform fits together
 
